@@ -1,8 +1,6 @@
 # Bounce
 Bounce App
 
-Openshift App "Bounce"
-
 npm install to set up.
 
 run localy on localhost:8080
