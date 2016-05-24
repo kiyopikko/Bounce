@@ -1,0 +1,27 @@
+ #myPage{
+ 	max-width: 768px;
+ 	margin-top: 4em;
+ 	.list-group{
+ 		margin-bottom: 0em;
+ 		ul,li{
+ 			text-align: left;
+ 			font-size: 1.1em;
+ 			border: none;
+ 		}
+ 	}
+ 	.btn-success,.btn-info{
+ 		width: 5em;
+ 		margin: 0.5em auto 0em auto;
+ 		display: block;
+ 	}
+ 	.btn-danger,.btn-warning{
+ 		display: block;
+ 		width: 7em;
+ 		margin: 1em auto 0 auto;
+ 	}
+ 	h4{
+ 		display: block;
+ 		width: 100%;
+ 		text-align: center;
+ 	}
+ }

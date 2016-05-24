@@ -1,0 +1,31 @@
+import keyMirror from 'keymirror'; 
+ 
+export default keyMirror({ 
+    LOG_IN: null,
+    SIGN_UP: null,
+    LOG_OUT: null,
+    SUBMIT_MESSAGE: null,
+    DESTROY_ROOM: null,
+    SWITCH_ROOM: null,
+    CREATE_ROOM: null,
+    SHOW_POSTS: null,
+    POST_IMAGE: null,
+    GET_REPLIES: null,
+    EDIT_POST: null,
+    LIKE: null,
+    UNLIKE: null,
+    DELETE_POST: null,
+    GET_NEW_POSTS: null,
+    POST_REPLY: null,
+    GET_POSTS: null,
+    DELETE_USER: null,
+    EDIT_USER: null,
+    GET_USER_INFO: null,
+    POST_FILE: null,
+    SET_USER_PAGE_INFO:null,
+    GET_USER_PAGE_POSTS:null,
+    GET_USER_POSTS:null,
+    GET_USER_NOTIFICATIONS:null,
+    SET_SINGLE_POST:null,
+    CONNECT_SOCKET:null
+});

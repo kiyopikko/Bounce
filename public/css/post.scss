@@ -1,0 +1,204 @@
+        #PostPage {
+            margin: 4em auto 0em auto;
+            width: 100%;
+        }
+
+		.custom-file-upload {
+        font-size:1em;
+        padding: 0.4em;
+        display: block;
+        width: 10em;
+        margin: 1em auto 1em auto;
+        }  
+
+        #PostFormDiv{
+        	width:100%;
+        	padding:0em;
+        		#uploadForm{
+        			width:70%;
+        			margin: 0em auto;
+	        		.postFileButton{
+						display: none;
+						width: 40%;
+						margin: 1em auto;
+					}
+        	}
+        }
+
+	input[type="file"] {
+    display: none;
+	}
+	#photoviwer{
+		display: block;
+		width:50%;
+		margin:0em auto 2em auto;
+	}
+	.preview{
+		font-size: 1em;
+		width:5em;
+		margin: 0em auto;
+		text-align: center;
+	}
+	.partyPost{
+		font-size:2em;
+		width:90%;
+		margin:0em auto;
+		text-align: center;
+		color: #FF3800;
+	}
+	.Post{
+		margin: 0.5em 0.5em 0.5em 0.5em;
+		text-align: center;
+		.likeButton{
+			width: 30%;
+			margin: 0em auto;
+			font-size: 1.3em;
+			list-style: none;
+			padding: 0.2em;
+			&:hover{
+				cursor:pointer;
+			}
+		}
+		.CommentBox{
+			color:#333;
+			font-size: 1.5em;
+			padding: 0em;
+			margin:0.5em auto 0.5em auto;
+		} 
+	} 
+	.userLink{ 
+		color:#FF3800; 
+	} 
+	.replyComment{ 
+		textarea{ 
+		width: 60%;
+		clear:both; 
+		display: block; 
+		margin: 0em auto; 
+		padding: 0.5em;
+		height: 3.5em; 
+		}
+		span{
+		padding:0.3em;
+		width:80%;
+		font-size: 1.5em;
+		display: block;
+		margin: 0.8em auto 0em auto;
+		text-align: center;
+			&:hover{
+				cursor: pointer;
+			}
+		}
+	}
+	.commentsList{
+		display: block;
+		margin:0.5em auto 1em;
+		padding-bottom: 0.5em;
+		&:hover{
+			cursor: pointer;
+		}
+	}
+	.comment{
+		padding:0.5em;
+	}
+	.postReplyDiv{
+		display: block;
+		width:90%;
+		margin: 0em auto 0em auto;
+	}
+	.commentTextarea{
+		width: 80%;
+		display: block;
+		margin: 0em auto;
+		padding: 0.5em;
+	}
+	
+	.moreButonHolder{
+		margin: 0.5em 1.3%;
+		float: right;
+		width:30%;
+		font-size: 0.9em;
+	}
+
+	.myPost{
+		button{
+			margin: 0em 2em 1em 2em;
+		}
+	}
+	.editor{
+		button{
+			margin-top: 1em;
+		}
+	}
+	.btn-group-justified{ 
+		button{
+			letter-spacing: 0.1em;
+		}
+	}
+
+	.repliesList{
+		overflow-x: hidden;
+        max-height: 14em;
+        border: solid 0.2em #333;
+	}
+
+	@media screen and (max-width:37.5em){ 
+ 			.postImage{
+			max-width: 100%;
+			height:auto;
+			}          
+			.postReplyDiv{
+			width:100%;
+			margin: 0px auto 0.5em auto;
+			}
+			.commentsList{
+			width:80%;
+			}
+    }
+
+    @media screen and (min-width:37em){ 
+ 			.postImage{
+			max-width: 100%;
+			height:40em;
+			margin-bottom: 1em;
+			}
+		.postReplyDiv{
+		width:40em;
+		margin: 0em auto 1em auto;
+		}
+		.commentsList{
+		width:40em;
+		}
+		#PostFormDiv{
+        		#uploadForm{
+	        		textarea{
+	        			display: block;
+		        		width:30em;
+		        		margin: 0em auto;
+	        		}
+        	}
+        }
+        .replyComment{
+			textarea{
+		 	width: 30em;
+			}
+		}
+    }
+
+    @media screen and (min-width:56em){ 
+ 			.postImage{
+			max-width: 100%;
+			height:800px;
+			margin-bottom: 1.5em;
+			}
+		.postReplyDiv{
+		width:500px;
+		margin: 0px auto 10px auto;
+		}
+		.commentsList{
+		width:500px;
+		}
+		 #PostPage {
+            margin: 5.5em auto 0em auto;
+        }
+    }

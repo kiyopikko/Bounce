@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+
+*{
+	font-family: 'Droid Sans', sans-serif;
+}
+
+.loginsignupDiv{
+	max-width: 768px;
+	background-color: #f9f9f9;
+	h1{		
+		margin-top: 0.5em;
+		font-size: 4em;
+        font-family: 'Lobster', cursive;
+        font-weight: bold;
+        color: #FF3800;
+        text-align: center;
+        border-bottom: 0.5em solid #FF3800;
+        letter-spacing: 0.2em;
+	}
+	.btn-default, .submit-button{
+		border-radius: 0;
+		letter-spacing: 0.1em;
+		margin-bottom: 1em;
+	}
+	h4{
+		margin:1.5em auto 1em auto;
+		clear: both;
+		text-align: center;
+		font-size: 1.5em;
+		letter-spacing: 0.1em;
+		font-weight: bold;
+	}
+	.loginFooter{
+		clear: both;
+		margin-bottom: 2em;
+		text-align: center;
+		height: 1em;
+		background-color: #FF3800;
+	}
+}
+

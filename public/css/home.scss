@@ -1,0 +1,27 @@
+ #Home{
+ 	margin-top: 4.5em;
+ 	width: 100%;
+ 	h1{
+ 		text-align: center;
+ 		color: #333;
+ 	}
+ 	img{
+ 		width: 40%;
+ 		margin: 1em auto 1em auto; 
+ 		display: block;
+ 		border-radius: 50%;
+ 		border: 1em solid #FF3800;
+ 		&:hover{
+ 			cursor: pointer;
+ 			border: 1.5em solid #FF3800;
+ 		}
+ 	}
+ 	.footer{
+ 		border-top: 3px solid #FF3800;
+ 		bottom: 0em;
+ 		text-align: center;
+ 		margin-bottom: 0em;
+ 		position: fixed;
+ 		width: 100%;
+ 	}
+ }
