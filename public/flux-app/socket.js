@@ -1,4 +1,4 @@
-
+/*
 const config = {
 "domain":"mantis-ranson.rhcloud.com",
 "serverip":"127.9.72.129",
@@ -12,8 +12,8 @@ const config = {
   "secure":false
   }
 };
+*/
 
-/*
 const config = {
   "domain": '127.0.0.1',
   "serverip": '127.0.0.1',
@@ -25,7 +25,7 @@ const config = {
                     reconnectionAttempts: 100,
                     secure: false
                   }
-};*/
+};
 
 const connString = config.protocol + config.domain + ':' + config.clientport;
 
