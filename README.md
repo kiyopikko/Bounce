@@ -2,7 +2,7 @@
 Bounce App
 
 React.js, flux, Node/Express, mongodb
-socket.io 
+socket.io webpack
 
 deployed through openshift.
 
@@ -15,8 +15,11 @@ or go to mantis-ranson.rhcloud.com for a running Openshift app
 This project is an ongoing party app I have put together in my spare time
 for the past 4 months.
 
-Issues I have ran into so far are.
 
-Running cluster with socket.io.
+Issues I have ran into so far are:
+
+- Running cluster with socket.io.
+- Desing is no good
+
 
 Peace
